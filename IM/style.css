@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #222222;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding-left: 19px;
+    padding-right: 19px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f16d7f;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+}
+
+.logo-d {
+    color: #f16d7f;
+    font-weight: 400;
+    letter-spacing: 0.68px;
+}
+
+.navigation {
+    background-color: #ffffff;
+}
+
+.menu-link {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.the-brand {
+    background-color: #e8e8e8;
+}
+
+.the-brand-back {
+    height: 613px;
+    background-image: url(img/back_ban.jpg);
+    background-position: 0 -51px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.the-brand-text p {
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-top-the-brand {
+    font-size: 60px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.text-bottom-the-brand {
+    font-size: 40px;
+    line-height: 32px;
+}
+
+.pink {
+    color: #f16d7f;
+}
+
+.the-brand-text {
+    margin-top: 224px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
