@@ -20,6 +20,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
+    
 }
 
 .header {
@@ -43,6 +44,7 @@ body {
 .header-form {
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 .header-right {
