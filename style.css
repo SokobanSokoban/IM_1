@@ -20,7 +20,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-    
+
 }
 
 .header {
@@ -129,4 +129,59 @@ body {
     margin-top: 224px;
     border-left: 12px solid #f16d7f;
     padding-left: 12px;
+}
+
+/*вторая часть */
+
+.flex-container-left {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.merge-item {
+    margin: 10px;
+    text-align: left;
+}
+
+.flex-container-right {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wallet {
+    width: 560px;
+    height: 261px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(img/Rectangle%2019%20copy%203.png)
+}
+
+.wallet img {
+    width: 411px;
+    height: 240px;
+}
+
+.flex-container-LR {
+    display: flex;
+    margin: 100px auto;
+    width: 1140px;
+}
+
+.merge-item {
+    position: relative;
+}
+
+.brend-ticket {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    background-color: #ffffff
 }
