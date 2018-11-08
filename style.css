@@ -172,7 +172,11 @@ body {
 .flex-container-LR {
     display: flex;
     margin: 100px auto;
-    width: 1140px;
+    flex-wrap: wrap;
+}
+
+.flex-center {
+    display: flex;
 }
 
 .merge-item {
@@ -205,4 +209,115 @@ body {
     text-align: left;
 }
 
- /* третья часть */
+/* третья часть планка с ценами*/
+.top-text-price {
+    font-family: Lato;
+    color: #222222;
+    font-size: 30px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 54px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.botton-text-price {
+    font-family: Lato;
+    color: #9f9f9f;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 54px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+
+.menu-price {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 58px;
+    width: 1140px
+}
+
+.item-price {
+    display: block;
+    width: 263px;
+    height: 364px;
+    margin-left: 18px;
+}
+
+.catalog-price {
+    display: flex;
+    justify-content: center;
+}
+
+.top-text-item-price {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Lato;
+    color: #222222;
+    font-size: 13px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: left;
+}
+
+.top-red-price {
+    padding-left: 10px;
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 1700;
+    text-align: left;
+}
+
+/*часть 4 большой процент*/
+.button-sale {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-banner {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.dilivery {
+    background-color: #222224;
+    width: 373px;
+    height: 529px;
+}
+
+.banner-sale {
+    position: relative;
+}
+
+.brend-sale {
+    padding: 10px;
+    position: absolute;
+    top: 146px;
+    left: 36px;
+}
+
+.top-text-banner {
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 53.62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+
+.botton-text-banner-sale {
+/* Встроенный стиль */
+font-family: Lato;
+color:  #ffffff;
+font-size: 32.17px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: left;
+
+}
