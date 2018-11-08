@@ -180,8 +180,29 @@ body {
 }
 
 .brend-ticket {
+    padding: 10px;
     position: absolute;
     top: 28px;
     left: 0px;
     background-color: #ffffff
 }
+
+.brend-ticket .red_text {
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 1.875em;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: left;
+}
+
+.brend-ticket p {
+    font-family: Lato;
+    color: #222222;
+    font-size: 1.125em;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    text-align: left;
+}
+
+ /* третья часть */
