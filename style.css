@@ -12,6 +12,9 @@ body {
     margin: 0 auto;
 }
 
+.logo-img {
+    margin-right: 10px;
+}
 .logo {
     color: #222222;
     font-size: 27px;
@@ -102,8 +105,13 @@ body {
     border: .02px solid;
     border-radius: 0px;
     border-color: #e6e6e6;
+    
+    
 }
 
+.shop {
+    margin-right: 20px;
+}
 .header-right {
     display: flex;
     align-items: center;
@@ -627,9 +635,11 @@ body {
 }
 
 .footer-sub {
-
+ 
+    background-color: #e8e8e8;
+ 
     background-color: rgba(242, 242, 242, 0.5);
-    width: 1600px;
+    width: 1400px;
     height: 438px;
     margin: 100px auto;
     display: flex;
@@ -652,4 +662,14 @@ body {
     background-color: #f16d7f;
     width: 38px;
     height: 4px;
+}
+
+
+
+
+
+.futer-sub-back {
+   
+    background-color: #e8e8e8;
+
 }
