@@ -20,7 +20,6 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-
 }
 
 .header {
@@ -86,6 +85,17 @@ body {
     display: block;
 }
 
+.menu-link:hover {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 19px 15px;
+    display: block;
+    border-bottom: 1px solid black;
+}
+
 .menu {
     display: flex;
     list-style-type: none;
@@ -131,6 +141,7 @@ body {
     padding-left: 12px;
 }
 
+
 /*вторая часть */
 
 .flex-container-left {
@@ -139,7 +150,6 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column;
-
 }
 
 .merge-item {
@@ -154,7 +164,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 
 .wallet {
     width: 560px;
@@ -177,7 +186,6 @@ body {
 
 .flex-center {
     display: flex;
-    
 }
 
 .merge-item {
@@ -210,14 +218,15 @@ body {
     text-align: left;
 }
 
+
 /* часть 3 планка с ценами*/
+
 .heading {
     color: #222222;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.75px;
     text-align: center;
-    
     margin-bottom: 16px
 }
 
@@ -262,7 +271,7 @@ body {
 }
 
 .item:hover img {
-    filter: brightness(50%);
+   filter: brightness(50%);
 }
 
 .item:hover {
@@ -271,6 +280,7 @@ body {
 
 .item:hover .box-add {
     display: flex;
+   
 }
 
 .product {
@@ -302,6 +312,7 @@ body {
 
 
 /*часть 4 большой процент*/
+
 .button-sale {
     display: flex;
     justify-content: center;
@@ -311,12 +322,6 @@ body {
     margin-top: 70px;
     display: flex;
     justify-content: center;
-}
-
-.dilivery {
-    background-color: #222224;
-    width: 373px;
-    height: 529px;
 }
 
 .banner-sale {
@@ -340,13 +345,82 @@ body {
 }
 
 .botton-text-banner-sale {
-/* Встроенный стиль */
-font-family: Lato;
-color:  #ffffff;
-font-size: 32.17px;/* Приближение из-за подстановки шрифтов */
-font-weight: 700;
-text-align: left;
-
+    /* Встроенный стиль */
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 32.17px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
 }
-/**/
+
+
+.add-sale-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    /*opacity: 0.2;
+    */
+}
+.banner-sale:hover .add-sale-img {
+    opacity: 0.2;
+    display: block;
+}
+
+
+/*левая часть*/
+.diliv-lefr a {
+    padding: 10px;
+}
+
+.diliv-lefr a img {
+    background-color: #f16d7f;
+}
+
+.diliv-text {
+    width: 219px;
+    height: auto;
+}
+
+.header-diliv {
+    font-family: Lato;
+    color: #fbfbfb;
+    font-size: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.p-divil {
+    font-family: Lato;
+    color: #fbfbfb;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.dilivery-flex {
+    background-color: #222224;
+    width: 373px;
+    height: 529px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.diliv-lefr {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+
 
