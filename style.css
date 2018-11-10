@@ -43,7 +43,64 @@ body {
 .header-form {
     display: flex;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 100px;
+}
+
+.search {
+    line-height: 100px;
+    position: relative;
+
+
+}
+
+.search input[type="text"] {
+    padding: 0px;
+    height: 35px;
+    width: 403px;
+    border: solid 1px;
+    border-color: #e6e6e6;
+
+}
+
+.search select {
+    position: absolute;
+    top: 33px;
+    padding: 5px;
+    background-color: whitesmoke;
+    height: 37px;
+    width: 87px;
+
+    font-size: 14px;
+    border-right: solid 1px;
+    border-color: #e6e6e6;
+
+}
+
+.search select option {
+
+    top: 33px;
+
+    background-color: whitesmoke;
+    height: 37px;
+    width: 87px;
+    border-right: solid 1px;
+    border-color: #e6e6e6;
+}
+
+.search .button_search {
+    position: absolute;
+    top: 33px;
+    left: 367px;
+    background-color: #ffffff;
+    background-image: url("img/search_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    height: 36px;
+    width: 38px;
+    border: .02px solid;
+    border-radius: 0px;
+    border-color: #e6e6e6;
 }
 
 .header-right {
@@ -186,7 +243,7 @@ body {
 
 .flex-center {
     display: flex;
-  
+
 }
 
 .merge-item {
@@ -479,9 +536,9 @@ body {
     height: 200px;
     width: 386px;
     padding-left: 20px;
-   display: flex;
-    flex-direction:column;
-    
+    display: flex;
+    flex-direction: column;
+
     justify-content: space-around;
 
 }
@@ -521,7 +578,6 @@ body {
     /* Приближение из-за подстановки шрифтов */
     text-align: center;
 
-
 }
 
 .Subscribe p {
@@ -536,7 +592,7 @@ body {
 }
 
 .Subscribe input {
-
+    outline: none;
     background-color: #e1e1e1;
     width: 285px;
     height: 46px;
@@ -545,7 +601,15 @@ body {
     padding-left: 10px;
     border-bottom-left-radius: 23px;
     border-top-left-radius: 23px;
+
 }
+
+.Subscribe input:hover {
+    border-bottom-style: dotted;
+    border-bottom-left-radius: 23px;
+    border-top-left-radius: 23px;
+}
+
 
 .sub-input {
     display: flex;
@@ -562,10 +626,10 @@ body {
 }
 
 .footer-sub {
-   
+
     background-color: rgba(242, 242, 242, 0.5);
-width: 1600px;
-height: 438px;
+    width: 1600px;
+    height: 438px;
     margin: 100px auto;
     display: flex;
     background-image: url(img/Layer%2041.jpg);
@@ -578,15 +642,13 @@ height: 438px;
 }
 
 .dot {
-background-color: #d6d6d6;
-width: 38px;
-height: 4px;
+    background-color: #d6d6d6;
+    width: 38px;
+    height: 4px;
 }
 
 .dot-red {
-background-color: #f16d7f;
-width: 38px;
-height: 4px;
+    background-color: #f16d7f;
+    width: 38px;
+    height: 4px;
 }
-
-
