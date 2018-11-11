@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');*/
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -15,6 +16,7 @@ body {
 .logo-img {
     margin-right: 10px;
 }
+
 .logo {
     color: #222222;
     font-size: 27px;
@@ -81,9 +83,7 @@ body {
 }
 
 .search select option {
-
     top: 33px;
-
     background-color: whitesmoke;
     height: 37px;
     width: 87px;
@@ -105,13 +105,14 @@ body {
     border: .02px solid;
     border-radius: 0px;
     border-color: #e6e6e6;
-    
-    
+
+
 }
 
 .shop {
     margin-right: 20px;
 }
+
 .header-right {
     display: flex;
     align-items: center;
@@ -635,9 +636,9 @@ body {
 }
 
 .footer-sub {
- 
+
     background-color: #e8e8e8;
- 
+
     background-color: rgba(242, 242, 242, 0.5);
     width: 1400px;
     height: 438px;
@@ -665,11 +666,131 @@ body {
 }
 
 
-
-
-
 .futer-sub-back {
-   
     background-color: #e8e8e8;
+}
 
+/*брендовая подпись*/
+.foot-brand {
+    margin: auto;
+    width: 1140px;
+    height: 329px;
+    /*    border-style: dotted;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-foot-brend {
+    width: 410px;
+    height: 280px;
+    /*    border-style: dotted;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.block-foot-brend p {
+    font-family: Lato;
+    color: #898989;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.block-p-brand {
+    width: 200px;
+    height: 280px;
+    /*    border-style: dotted;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.block-p-brand a {
+    text-decoration: none;
+
+    font-family: Lato;
+    color: #898989;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 42px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+
+}
+
+.block-p-brand h1 {
+    font-family: Lato;
+    color: #f16d7f;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+/*малый подвал*/
+.small-foot {
+    width: 1400px;
+    margin: auto;
+    height: 79px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.small-foot-back {
+    
+    margin: auto;
+    height: 79px;
+    background-color: #e6e6e6;
+
+}
+
+.small-foot p {
+    margin-left: 130px;
+    font-family: Lato;
+    color: #7a7a7a;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+
+}
+
+.soc {
+    font-family: FontAwesome, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(178, 178, 178, 255);
+    text-align: right;
+    width: 232px;
+    height: 32px;
+    margin-right: 180px;
+    display: flex;
+}
+
+.soc-icon {
+    background-color: #ffffff;
+
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 2px;
+}
+
+.soc-icon:hover {
+    background-color: #f16d7f;
+    ;
+    color: aliceblue;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
 }
