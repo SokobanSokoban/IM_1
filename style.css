@@ -761,7 +761,6 @@ body {
     font-size: 16px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
-
 }
 
 .soc {
@@ -784,7 +783,6 @@ body {
     text-align: center;
     margin: 2px;
 }
-
 .soc-icon:hover {
     background-color: #f16d7f;
     ;
