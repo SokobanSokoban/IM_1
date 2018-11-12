@@ -219,9 +219,14 @@ body {
     flex-direction: column;
 }
 
+/**/
 .merge-item {
     margin: 10px;
     text-align: left;
+}
+
+.merge-item:hover {
+    filter: brightness(50%);
 }
 
 .flex-container-right {
@@ -713,12 +718,27 @@ body {
 
 .block-p-brand a {
     text-decoration: none;
-
+    height: 16px;
     font-family: Lato;
     color: #898989;
     font-size: 16px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
+    line-height: 42px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+
+}
+
+.block-p-brand a:hover {
+    text-decoration: none;
+
+    font-family: Lato;
+    color: #898989;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+
     line-height: 42px;
     /* Приближение из-за подстановки шрифтов */
     text-align: left;
@@ -746,8 +766,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .small-foot-back {
-    
+
     margin: auto;
     height: 79px;
     background-color: #e6e6e6;
@@ -764,28 +785,36 @@ body {
 }
 
 .soc {
-    font-family: FontAwesome, AdobeInvisFont, MyriadPro-Regular;
-    font-size: 16pt;
-    color: rgba(178, 178, 178, 255);
+
+    font-family: FontAwesome;
+    color: #b2b2b2;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 42px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: right;
     text-align: right;
     width: 232px;
     height: 32px;
     margin-right: 180px;
     display: flex;
+
 }
 
 .soc-icon {
-    background-color: #ffffff;
-
+    text-decoration: none;
+    color: #b2b2b2;
     width: 32px;
     height: 32px;
     line-height: 32px;
     text-align: center;
     margin: 2px;
 }
+
 .soc-icon:hover {
     background-color: #f16d7f;
-    ;
+    text-decoration: none;
     color: aliceblue;
     width: 32px;
     height: 32px;
