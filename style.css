@@ -981,3 +981,132 @@ body {
     font-weight: 400;
     letter-spacing: 0.35px;
 }
+
+/*корзина*/
+.cart-drop-box {
+    width: 262px;
+    height: 440px;
+    background-color: #ffffff;
+    border-radius: 5.0px;
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+
+.top-cart {
+    /*    border: 1px solid black;*/
+
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.poto-prod-cart {
+    width: 240px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+
+}
+
+.head-box-cart {
+    Text: Rebox Zane;
+    width: 74px;
+    height: 10px;
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+
+}
+
+.stars {
+    Text: 33;
+    width: 56px;
+    height: 12px;
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e4af48;
+}
+
+.price-cart-box {
+    Text: 1 x $250;
+    width: 52px;
+    height: 12px;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #f16d7f;
+}
+
+.cart-delete {
+
+    width: 15px;
+    height: 15px;
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    text-decoration: none;
+}
+
+.head-total {
+
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin: 20px;
+width: 240px;
+
+
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.box-button-cart {
+    width: 225px;
+    height: 50px;
+    border: 1.0px solid #4a4a4a;
+    margin: 10px;
+}
+
+.buutton-text {
+    padding-top: 15px;
+    text-align: center;
+    display: block;
+    width: 225px;
+    height: 50px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:  #4a4a4a;
+    text-decoration: none;
+}
