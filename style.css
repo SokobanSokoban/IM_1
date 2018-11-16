@@ -43,6 +43,7 @@ body {
 .header-left {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .header-form {
@@ -115,7 +116,10 @@ body {
 
 .header-right {
     display: flex;
+    /*    border: 1px solid;*/
+    height: 70px;
     align-items: center;
+    position: relative;
 }
 
 .button {
@@ -153,8 +157,8 @@ body {
 
 }
 
-.menu-link:hover {
-    color: #222222;
+.menu-list:hover .menu-link {
+    color: #f16d7f;
     font-size: 14px;
     font-weight: 800;
     text-transform: uppercase;
@@ -982,21 +986,42 @@ body {
     letter-spacing: 0.35px;
 }
 
+.drop-link:hover {
+    color: #f16d7f;
+}
+
 /*корзина*/
 .cart-drop-box {
     width: 262px;
     height: 440px;
     background-color: #ffffff;
     border-radius: 5.0px;
-    border: 1px solid black;
-    
-    display: flex;
+    border: 1px solid #e8e8e8;
+
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-   
 
+    position: absolute;
+    top: 70px;
 }
+
+/*стрелочка*/
+.cart-drop-box :before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 130px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
 
 .top-cart {
     /*    border: 1px solid black;*/
@@ -1015,13 +1040,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid;
+    /*    border: 1px solid;*/
 
 }
 
 .head-box-cart {
-    Text: Rebox Zane;
-    width: 74px;
+
+    width: 100px;
     height: 10px;
     font-family: Lato;
     font-size: 12px;
@@ -1033,7 +1058,7 @@ body {
 }
 
 .stars {
-    Text: 33;
+
     width: 56px;
     height: 12px;
     font-family: FontAwesome;
@@ -1044,7 +1069,7 @@ body {
 }
 
 .price-cart-box {
-    Text: 1 x $250;
+
     width: 52px;
     height: 12px;
     font-family: Lato;
@@ -1078,9 +1103,9 @@ body {
 .cart-total {
     display: flex;
     justify-content: space-between;
-    border: 1px solid;
+    /*    border: 1px solid;*/
     margin: 20px;
-width: 240px;
+    width: 240px;
 
 
     font-family: Lato;
@@ -1093,8 +1118,16 @@ width: 240px;
 .box-button-cart {
     width: 225px;
     height: 50px;
-    border: 1.0px solid #4a4a4a;
+    border: 1.0px solid #e8e8e8;
     margin: 10px;
+}
+
+.box-button-cart:hover {
+    border: 1.0px solid #f16d7f;
+}
+
+.box-button-cart:hover .buutton-text {
+    color: #f16d7f;
 }
 
 .buutton-text {
@@ -1107,6 +1140,61 @@ width: 240px;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color:  #4a4a4a;
+    color: #4a4a4a;
     text-decoration: none;
+}
+
+.button-cart {
+    padding-left: 19px;
+    padding-right: 19px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #f16d7f;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+}
+
+.header-right:hover .cart-drop-box {
+
+    display: flex;
+}
+
+/* Дроп давн */
+.Drop-down {
+    width: 262px;
+    height: 530px;
+    background-color: #ffffff;
+    border-radius: 5.0px;
+/*    border: 1px solid;*/
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left:300px;
+    top:  70px;
+}
+.Drop-down:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    position: absolute;
+    top: -8px;
+    left: 31px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
+.drop-down-menu {
+
+    list-style-type: none;
+    display: block;
+
 }
