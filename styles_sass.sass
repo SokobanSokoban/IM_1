@@ -260,6 +260,9 @@ body
 .product
   display: block
   text-decoration: none
+  //border: 1px solid black
+  width: 261px
+  height: 379px
 
 .box-add
   position: absolute
@@ -344,7 +347,6 @@ body
   font-family: Lato
   color: #fbfbfb
   font-size: 20px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 700
   text-align: left
   margin-bottom: 10px
@@ -353,10 +355,8 @@ body
   font-family: Lato
   color: #fbfbfb
   font-size: 14px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 300
   line-height: 24px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .dilivery-flex
@@ -385,20 +385,16 @@ body
   font-family: Lato
   color: rgba(34, 34, 36, 0.67)
   font-size: 16px
-  /* Приближение из-за подстановки шрифтов */
   font-style: italic
   line-height: 26px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .red-text-sub
   font-family: Lato
   color: $col_pink
   font-size: 16px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 700
   line-height: 26px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .dhaka
@@ -406,10 +402,8 @@ body
   font-family: Lato
   color: #222224
   font-size: 12px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 300
   line-height: 14px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .photo-text
@@ -451,20 +445,16 @@ body
   font-family: Lato
   color: rgba(34, 34, 36, 0.67)
   font-size: 24px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 800
   line-height: 54px
-  /* Приближение из-за подстановки шрифтов */
   text-align: center
 
 .Subscribe p
   font-family: Lato
   color: rgba(34, 34, 36, 0.67)
   font-size: 14px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 400
   line-height: 24px
-  /* Приближение из-за подстановки шрифтов */
   text-align: center
 
 .Subscribe input
@@ -496,7 +486,6 @@ body
   align-items: center
 
 .footer-sub
-
   background-color: rgba(242, 242, 242, 0.5)
   width: 1400px
   height: 438px
@@ -544,16 +533,13 @@ body
   font-family: Lato
   color: #898989
   font-size: 14px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 300
   line-height: 24px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .block-p-brand
   width: 200px
   height: 280px
-  /*    border-style: dotted */
   display: flex
   flex-direction: column
   justify-content: space-between
@@ -565,10 +551,8 @@ body
   font-family: Lato
   color: #898989
   font-size: 16px
-  /* Приближение из-за подстановки шрифтов */
   font-weight: 400
   line-height: 42px
-  /* Приближение из-за подстановки шрифтов */
   text-align: left
 
 .block-p-brand a:hover
@@ -650,75 +634,7 @@ body
   line-height: 32px
   text-align: center
 
-/*СИНГЛ СТРАНИЦА*/
-.flex-singl
-  display: flex
-  justify-content: space-between
-  align-items: center
-  height: 148px
-
-.flex-singl h1
-  font-family: Lato
-  color: $col_pink
-  font-size: 24px
-  /* Приближение из-за подстановки шрифтов */
-  font-weight: 900
-  line-height: 20px
-  /* Приближение из-за подстановки шрифтов */
-  text-align: center
-
-.flex-singl p
-  font-family: Lato
-  color: #636363
-  font-size: 14px
-  /* Приближение из-за подстановки шрифтов */
-  font-weight: 300
-  line-height: 20px
-  /* Приближение из-за подстановки шрифтов */
-  text-align: center
-  font-family: Lato
-
-.SinglPhoto
-  display: flex
-  justify-content: center
-  align-items: center
-  background-color: #f7f7f7
-
-.scroll
-  background-color: rgba(42, 42, 42, 0.15)
-  width: 47px
-  height: 47px
-
-.scroll a
-  display: flex
-  text-decoration: none
-  font-family: FontAwesome
-  color: #ffffff
-  font-size: 24px
-  /* Приближение из-за подстановки шрифтов */
-  font-weight: 400
-  line-height: 47px
-  /* Приближение из-за подстановки шрифтов */
-  justify-content: center
-
-.back-price
-  border-style: solid
-  border-width: 1px
-  border-color: #eaeaea
-  box-sizing: border-box
-  background-color: #ffffff
-  width: 1141px
-  height: 730px
-  position: absolute
-  top: 668px
-  left: 47px
-
-.position
-  position: relative
-  height: 1300px
-
-.cont
-  display: flex
+@import "singlPage"
 
 /*выпадающее меню*/
 .drop-box
@@ -749,6 +665,7 @@ body
 
 .menu-list:hover .drop-box
   display: flex
+  z-index: 4
 
 .drop-heading
   color: #232323
@@ -846,7 +763,6 @@ body
   color: #e4af48
 
 .price-cart-box
-
   width: 52px
   height: 12px
   font-family: Lato
@@ -924,19 +840,20 @@ body
 
 .header-right:hover .cart-drop-box
   display: flex
+  z-index: 5
 
 /* Дроп давн */
 .Drop-down
   width: 262px
   height: 530px
-  background-color: #ff6127
+  background-color: #fff
   border-radius: 5.0px
 
   display: none
   flex-direction: column
   justify-content: space-around
   position: absolute
-  left: 300px
+  left: 280px
   top: 40px
 
 .Drop-down:before
@@ -956,4 +873,4 @@ body
   list-style-type: none
   display: block
 
-
+@import "shoppingCart"
