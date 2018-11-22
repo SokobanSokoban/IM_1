@@ -1,0 +1,9 @@
+.dilivery-flex {
+  background-color: #222224;
+  width: 373px;
+  height: 529px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; }
+
+/*# sourceMappingURL=Product.css.map */

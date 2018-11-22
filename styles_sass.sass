@@ -7,9 +7,14 @@ $col_pink: #f16d7f
 body
   font-family: 'Lato', sans-serif
 
+.input
+  padding: 16px
+
+
 .container
   width: 1140px
   margin: 0 auto
+
 
 .logo-img
   margin-right: 10px
@@ -96,6 +101,7 @@ body
   padding: 19px 15px
   display: block
   border-bottom: 1px solid black
+  transition: color 1s
 
 .menu
   display: flex
@@ -489,7 +495,7 @@ body
   background-color: rgba(242, 242, 242, 0.5)
   width: 1400px
   height: 438px
-  margin: 100px auto
+  margin:  auto
   display: flex
   background-image: url(img/Layer41.jpg)
   justify-content: center
@@ -644,6 +650,7 @@ body
   position: absolute
   padding: 20px
   display: none
+
   top: 50px
   left: -10px
 
@@ -666,6 +673,10 @@ body
 .menu-list:hover .drop-box
   display: flex
   z-index: 4
+  transition: opacity 2s
+  opacity: 1
+
+
 
 .drop-heading
   color: #232323
@@ -874,3 +885,4 @@ body
   display: block
 
 @import "shoppingCart"
+@import "product"
